@@ -3,6 +3,6 @@
 tox
 wheel
 sphinx>=2
-sphinx_rtd_theme
+sphinx_rad_theme
 pypandoc
 twine
