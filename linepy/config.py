@@ -17,8 +17,6 @@ class Config(object):
     LINE_CERTIFICATE_PATH       = '/Q'
     LINE_CHAN_QUERY_PATH        = '/CH4'
     LINE_SQUARE_QUERY_PATH      = '/SQS1'
-    LINE_SHOP_QUERY_PATH        = '/SHOP4'
-    LINE_LIFF_QUERY_PATH        = '/LIFF1'
 
     CHANNEL_ID = {
         'LINE_TIMELINE': '1341209950',
@@ -29,10 +27,10 @@ class Config(object):
         'LINE_SERVICES': '1459630796'
     }
 
-    APP_TYPE    = "DESKTOPWIN\t5.5.5DESKTOPWIN\t18.99"
-    APP_VER     = '5.5.5'
+    APP_TYPE    = ApplicationType._VALUES_TO_NAMES[96]
+    APP_VER     = '8.0.2'
     CARRIER     = '51089, 1-0'
-    SYSTEM_NAME = '             '
+    SYSTEM_NAME = 'Phusui'
     SYSTEM_VER  = '11.2.5'
     IP_ADDR     = '8.8.8.8'
     EMAIL_REGEX = re.compile(r"[^@]+@[^@]+\.[^@]+")
